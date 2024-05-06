@@ -7,4 +7,10 @@ const (
 	RedisURL  = "localhost:6379"
 	RedisPass = ""
 	RedisDB   = 0
+	AuthID = "amit@auth.com"
+	AuthPass = "amit123"
+)
+
+var (
+	SecretKey = []byte("global")
 )
